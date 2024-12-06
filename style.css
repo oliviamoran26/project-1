@@ -3,10 +3,6 @@ body {
   box-sizing: border-box;
   background-color: wheat;
   height: 100vh;
-
-  display: grid;
-  grid-template-columns: 2fr 1fr 10fr 1fr 2fr;
-  grid-template-rows: 50px 10fr 5fr 10fr 1fr 2fr 1fr 2fr;
 }
 
 nav {
@@ -35,6 +31,8 @@ nav {
 
 main {
   display: grid;
+  grid-template-columns: 5fr 0.5fr 15fr 0.5fr 2fr;
+  grid-template-rows: 11fr 2fr 11fr 1fr 5fr 2fr 5fr;
 }
 
 #A {
