@@ -47,18 +47,26 @@ main {
   background-color: black;
   color: white;
   grid-column: 2 / 3;
+  grid-row: 1 / 8;
 }
 
 #C {
   background-color: red;
-  grid-column: 3 / 5;
-  grid-row: 1 / 3;
+  grid-column: 3 / 6;
+  grid-row: 1 / 4;
 }
 
 #D {
   background-color: black;
   color: white;
   grid-column: 1 / 2;
+  grid-row: 4 / 5;
+}
+
+#E {
+  background-color: black;
+  color: white;
+  grid-column: 5 / 6;
   grid-row: 4 / 5;
 }
 
@@ -80,4 +88,43 @@ main {
   color: white;
   grid-column: 3 / 4;
   grid-row: 4 / 5;
+}
+
+#I {
+  background-color: blue;
+  color: white;
+  grid-column: 1 / 2;
+  grid-row: 5 / 8;
+}
+
+#J {
+  background-color: white;
+  grid-column: 3 / 4;
+  grid-row: 5 / 8;
+}
+
+#K {
+  background-color: black;
+  color: white;
+  grid-column: 4 / 5;
+  grid-row: 4 / 8;
+}
+
+#L {
+  background-color: white;
+  grid-column: 5 / 6;
+  grid-row: 5 / 8;
+}
+
+#M {
+  background-color: black;
+  color: white;
+  grid-column: 5 / 6;
+  grid-row: 6 / 7;
+}
+
+#N {
+  background-color: yellow;
+  grid-column: 5 / 6;
+  grid-row: 7 / 8;
 }
