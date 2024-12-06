@@ -10,7 +10,7 @@ nav {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  background-color: yellow;
+  background-color: #edda6d;
   height: 50px;
   grid-column: span 3;
 }
@@ -32,11 +32,11 @@ nav {
 main {
   display: grid;
   grid-template-columns: 5fr 0.5fr 15fr 0.5fr 2fr;
-  grid-template-rows: 11fr 2fr 11fr 1fr 5fr 2fr 5fr;
+  grid-template-rows: 15fr 2fr 15fr 1fr 5fr 2fr 5fr;
 }
 
 #A {
-  background-color: white;
+  background-color: #e4e2e3;
   grid-column: 1 / 2;
   grid-row: 1 / 2;
 }
@@ -49,7 +49,7 @@ main {
 }
 
 #C {
-  background-color: red;
+  background-color: #da2617;
   grid-column: 3 / 6;
   grid-row: 1 / 4;
 }
@@ -76,7 +76,7 @@ main {
 }
 
 #G {
-  background-color: white;
+  background-color: #e4e2e3;
   grid-column: 1 / 2;
   grid-row: 3 / 4;
 }
@@ -89,14 +89,14 @@ main {
 }
 
 #I {
-  background-color: blue;
+  background-color: #03619f;
   color: white;
   grid-column: 1 / 2;
   grid-row: 5 / 8;
 }
 
 #J {
-  background-color: white;
+  background-color: #e4e2e3;
   grid-column: 3 / 4;
   grid-row: 5 / 8;
 }
@@ -109,7 +109,7 @@ main {
 }
 
 #L {
-  background-color: white;
+  background-color: #e4e2e3;
   grid-column: 5 / 6;
   grid-row: 5 / 8;
 }
@@ -122,7 +122,7 @@ main {
 }
 
 #N {
-  background-color: yellow;
+  background-color: #edda6d;
   grid-column: 5 / 6;
   grid-row: 7 / 8;
 }
