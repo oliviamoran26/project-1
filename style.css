@@ -10,7 +10,7 @@ nav {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  background-color: #edda6d;
+  background-color: black;
   height: 50px;
   grid-column: span 3;
 }
@@ -18,7 +18,8 @@ nav {
 nav div {
   font: 20px;
   margin: 10px 10px 10px 10px;
-  color: black;
+  color: white;
+  text-decoration-color: white;
 }
 
 section {
@@ -36,7 +37,7 @@ main {
 }
 
 #A {
-  background-color: #e4e2e3;
+  background-color: #e7e8e1;
   grid-column: 1 / 2;
   grid-row: 1 / 2;
 }
@@ -76,27 +77,29 @@ main {
 }
 
 #G {
-  background-color: #e4e2e3;
+  background-color: #e7e8e1;
   grid-column: 1 / 2;
   grid-row: 3 / 4;
 }
 
 #H {
   background-color: black;
-  color: white;
+  color: black;
   grid-column: 3 / 4;
   grid-row: 4 / 5;
 }
 
 #I {
   background-color: #03619f;
-  color: white;
+  color: black;
   grid-column: 1 / 2;
   grid-row: 5 / 8;
+  align-content: end;
+  justify-content: end;
 }
 
 #J {
-  background-color: #e4e2e3;
+  background-color: #e7e8e1;
   grid-column: 3 / 4;
   grid-row: 5 / 8;
 }
@@ -109,7 +112,7 @@ main {
 }
 
 #L {
-  background-color: #e4e2e3;
+  background-color: #e7e8e1;
   grid-column: 5 / 6;
   grid-row: 5 / 8;
 }
