@@ -94,8 +94,9 @@ main {
   color: black;
   grid-column: 1 / 2;
   grid-row: 5 / 8;
-  align-content: end;
-  justify-content: end;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
 
 #J {
